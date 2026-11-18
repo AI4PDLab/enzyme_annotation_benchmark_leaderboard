@@ -1,5 +1,5 @@
 {
- "commit": "3ca2f3d",
+ "commit": "18e978a",
  "datasets": [
   {
    "citation": "https://doi.org/10.1038/s41586-018-0124-0",
@@ -12,7 +12,7 @@
    "prepared_utc": "2026-11-04T16:13:53Z"
   }
  ],
- "generated_utc": "2026-11-18T14:26:59Z",
+ "generated_utc": "2026-11-18T14:44:54Z",
  "identity_references": [
   "uniprot_sprot_2026_04"
  ],
@@ -442,7 +442,7 @@
     "torch 2.6.0+cu126 aarch64 pip wheel instead of the conda pytorch 2.6.0 build; lightning/pytorch-lightning/torchmetrics from pip (same versions)",
     "biopython 1.83 instead of 1.78 (1.78 has no Python 3.12 build: the authors' pins cannot be installed together)",
     "configs/annotate.yaml = authors' defaults (k=20, distance_cutoff 1.0, cosine, return distance + confidence, device cpu for the projection) with only file paths changed",
-    "EC selection from the k=20 output is not specified in the paper: variants conf_0.5 (primary) and all_k20"
+    "EC selection from the k=20 output is not specified in the paper: variants all_k20 (primary; reproduces the paper's Price-149 weighted F1, .624 vs .616) and conf_0.5"
    ],
    "category": "native_ec",
    "category_label": "Native EC",
@@ -465,7 +465,7 @@
    "mappings": [],
    "name": "HiFi-NN",
    "native_output": "ec",
-   "primary_variant": "conf_0.5",
+   "primary_variant": "all_k20",
    "status": "installed",
    "supported_depth": 4,
    "training_data": [
@@ -473,7 +473,7 @@
    ],
    "variants": {
     "all_k20": {
-     "description": "Every EC in the authors' output: all ECs of the 20 nearest neighbours within cosine distance 1.0 (recall-oriented)."
+     "description": "Every EC in the authors' output: all ECs of the 20 nearest neighbours within cosine distance 1.0 (recall-oriented). Paper-style Price-149 weighted F1 .624 (paper .616)."
     },
     "conf_0.5": {
      "description": "ECs with HiFi-NN confidence >= 0.5 among the k=20 nearest Swiss-Prot neighbours (confidence = distance softmax, T=0.001, so in practice the nearest neighbour's ECs)."
@@ -20611,7 +20611,7 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "hifinn",
-   "primary": false,
+   "primary": true,
    "run_id": "20261118T111830Z-hifinn-price-149",
    "runtime_s": 34,
    "status_counts": {
@@ -21702,7 +21702,7 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "hifinn",
-   "primary": true,
+   "primary": false,
    "run_id": "20261118T111830Z-hifinn-price-149",
    "runtime_s": 34,
    "status_counts": {

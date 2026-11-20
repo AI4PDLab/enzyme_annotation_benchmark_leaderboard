@@ -1,5 +1,5 @@
 {
- "commit": "f732de2",
+ "commit": "6074c11",
  "datasets": [
   {
    "citation": "https://doi.org/10.1038/s41586-018-0124-0",
@@ -52,7 +52,7 @@
    "prepared_utc": "2026-11-19T14:40:48Z"
   }
  ],
- "generated_utc": "2026-11-20T12:46:06Z",
+ "generated_utc": "2026-11-20T13:08:27Z",
  "identity_references": [
   "uniprot_sprot_2026_04"
  ],
@@ -21444,7 +21444,11 @@
    },
    "mapping_releases": [],
    "model_id": "blastp_swissprot",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7622,
+    "precision": 0.7663,
+    "recall": 0.7781
+   },
    "primary": false,
    "run_id": "20261119T192954Z-blastp_swissprot-m-csa",
    "runtime_s": 53,
@@ -21678,7 +21682,11 @@
    },
    "mapping_releases": [],
    "model_id": "blastp_swissprot",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7558,
+    "precision": 0.7612,
+    "recall": 0.7699
+   },
    "primary": true,
    "run_id": "20261119T192954Z-blastp_swissprot-m-csa",
    "runtime_s": 53,
@@ -21908,7 +21916,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "clean",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8108,
+    "precision": 0.8262,
+    "recall": 0.8173
+   },
    "primary": true,
    "run_id": "20261119T200042Z-clean-m-csa",
    "runtime_s": 55,
@@ -23000,7 +23012,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "clean_contact",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8037,
+    "precision": 0.8164,
+    "recall": 0.8111
+   },
    "primary": true,
    "run_id": "20261120T113350Z-clean_contact-m-csa",
    "runtime_s": 226,
@@ -24097,7 +24113,11 @@
    },
    "mapping_releases": [],
    "model_id": "deepectransformer",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8191,
+    "precision": 0.8216,
+    "recall": 0.839
+   },
    "primary": true,
    "run_id": "20261119T193205Z-deepectransformer-m-csa",
    "runtime_s": 47,
@@ -24327,7 +24347,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "deepectransformer",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.6854,
+    "precision": 0.6986,
+    "recall": 0.6945
+   },
    "primary": false,
    "run_id": "20261119T193205Z-deepectransformer-m-csa",
    "runtime_s": 47,
@@ -24572,7 +24596,11 @@
    },
    "mapping_releases": [],
    "model_id": "enzymehunter",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8421,
+    "precision": 0.8513,
+    "recall": 0.8504
+   },
    "primary": true,
    "run_id": "20261120T114224Z-enzymehunter-m-csa",
    "runtime_s": 465,
@@ -25677,7 +25705,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "enzymehunter",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7934,
+    "precision": 0.8175,
+    "recall": 0.7946
+   },
    "primary": false,
    "run_id": "20261120T114224Z-enzymehunter-m-csa",
    "runtime_s": 465,
@@ -26775,7 +26807,11 @@
    },
    "mapping_releases": [],
    "model_id": "enzymehunter_all_enzymes",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.848,
+    "precision": 0.8525,
+    "recall": 0.8596
+   },
    "primary": true,
    "run_id": "20261120T122629Z-enzymehunter_all_enzymes-m-csa",
    "runtime_s": 417,
@@ -27868,7 +27904,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "enzymehunter_all_enzymes",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7997,
+    "precision": 0.8196,
+    "recall": 0.8039
+   },
    "primary": false,
    "run_id": "20261120T122629Z-enzymehunter_all_enzymes-m-csa",
    "runtime_s": 417,
@@ -28972,7 +29012,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "fedkea",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7725,
+    "precision": 0.7897,
+    "recall": 0.7792
+   },
    "primary": true,
    "run_id": "20261119T194519Z-fedkea-m-csa",
    "runtime_s": 212,
@@ -29202,7 +29246,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "fedkea_all_enzymes",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7761,
+    "precision": 0.788,
+    "recall": 0.7864
+   },
    "primary": true,
    "run_id": "20261119T201547Z-fedkea_all_enzymes-m-csa",
    "runtime_s": 144,
@@ -29435,7 +29483,11 @@
    },
    "mapping_releases": [],
    "model_id": "foldseek_afdb_swissprot",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7562,
+    "precision": 0.7621,
+    "recall": 0.7719
+   },
    "primary": false,
    "run_id": "20261119T215055Z-foldseek_afdb_swissprot-m-csa",
    "runtime_s": 172,
@@ -29670,7 +29722,11 @@
    },
    "mapping_releases": [],
    "model_id": "foldseek_afdb_swissprot",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7491,
+    "precision": 0.7575,
+    "recall": 0.7616
+   },
    "primary": true,
    "run_id": "20261119T215055Z-foldseek_afdb_swissprot-m-csa",
    "runtime_s": 172,
@@ -29901,7 +29957,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "hifinn",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7694,
+    "precision": 0.7185,
+    "recall": 0.9112
+   },
    "primary": true,
    "run_id": "20261119T200137Z-hifinn-m-csa",
    "runtime_s": 100,
@@ -30130,7 +30190,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "hifinn",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8765,
+    "precision": 0.8815,
+    "recall": 0.8885
+   },
    "primary": false,
    "run_id": "20261119T200137Z-hifinn-m-csa",
    "runtime_s": 100,
@@ -30366,7 +30430,11 @@
     "rhea2ec:143"
    ],
    "model_id": "horizyn",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.5928,
+    "precision": 0.5747,
+    "recall": 0.646
+   },
    "primary": false,
    "run_id": "20261119T202606Z-horizyn-m-csa",
    "runtime_s": 61,
@@ -30603,7 +30671,11 @@
     "rhea2ec:143"
    ],
    "model_id": "horizyn",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.5153,
+    "precision": 0.5217,
+    "recall": 0.5284
+   },
    "primary": false,
    "run_id": "20261119T202606Z-horizyn-m-csa",
    "runtime_s": 61,
@@ -30839,7 +30911,11 @@
     "rhea2ec:143"
    ],
    "model_id": "horizyn",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.551,
+    "precision": 0.5521,
+    "recall": 0.5707
+   },
    "primary": true,
    "run_id": "20261119T202606Z-horizyn-m-csa",
    "runtime_s": 61,
@@ -31068,7 +31144,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "protdetr",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8345,
+    "precision": 0.8274,
+    "recall": 0.8658
+   },
    "primary": true,
    "run_id": "20261119T200317Z-protdetr-m-csa",
    "runtime_s": 60,
@@ -32160,7 +32240,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "protdetr",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.7908,
+    "precision": 0.7999,
+    "recall": 0.7988
+   },
    "primary": false,
    "run_id": "20261119T200317Z-protdetr-m-csa",
    "runtime_s": 60,
@@ -33252,7 +33336,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "proteinfer",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8194,
+    "precision": 0.8313,
+    "recall": 0.838
+   },
    "primary": true,
    "run_id": "20261119T200418Z-proteinfer-m-csa",
    "runtime_s": 84,
@@ -33482,7 +33570,11 @@
    "mapping_coverage": null,
    "mapping_releases": [],
    "model_id": "proteinfer_ensemble",
-   "paper_style": null,
+   "paper_style": {
+    "f1": 0.8192,
+    "precision": 0.8313,
+    "recall": 0.8369
+   },
    "primary": true,
    "run_id": "20261119T220506Z-proteinfer_ensemble-m-csa",
    "runtime_s": 106,
@@ -33492,6 +33584,475 @@
    },
    "strata": {},
    "variant": "t0.5"
+  },
+  {
+   "dataset": "m-csa",
+   "enzyme_detection": {
+    "supported": false
+   },
+   "evaluated_utc": "2026-11-20T13:07:02Z",
+   "levels": {
+    "1": {
+     "all": {
+      "ec_class_coverage": 1.0,
+      "fn": 40,
+      "fp": 1062,
+      "macro": {
+       "f1": 0.5456902167967865,
+       "precision": 0.40397966658193357,
+       "recall": 0.8604333092608433
+      },
+      "micro": {
+       "f1": 0.6274509803921569,
+       "precision": 0.4663316582914573,
+       "recall": 0.9586776859504132
+      },
+      "n_evaluated": 965,
+      "protein_avg": {
+       "f1": 0.7495188076525495,
+       "precision": 0.6153333333333334,
+       "recall": 0.9585492227979274
+      },
+      "protein_coverage": 0.9844559585492227,
+      "supported": true,
+      "tp": 928,
+      "unsupported_depth_predictions": 0
+     },
+     "enzymes": {
+      "ec_class_coverage": 1.0,
+      "fn": 40,
+      "fp": 1062,
+      "macro": {
+       "f1": 0.5456902167967865,
+       "precision": 0.40397966658193357,
+       "recall": 0.8604333092608433
+      },
+      "micro": {
+       "f1": 0.6274509803921569,
+       "precision": 0.4663316582914573,
+       "recall": 0.9586776859504132
+      },
+      "n_evaluated": 965,
+      "protein_avg": {
+       "f1": 0.7495188076525495,
+       "precision": 0.6153333333333334,
+       "recall": 0.9585492227979274
+      },
+      "protein_coverage": 0.9844559585492227,
+      "supported": true,
+      "tp": 928,
+      "unsupported_depth_predictions": 0
+     }
+    },
+    "2": {
+     "all": {
+      "ec_class_coverage": 0.9692307692307692,
+      "fn": 88,
+      "fp": 3843,
+      "macro": {
+       "f1": 0.3295130618935283,
+       "precision": 0.21835380115190958,
+       "recall": 0.8588349487749055
+      },
+      "micro": {
+       "f1": 0.3085312225153914,
+       "precision": 0.1858050847457627,
+       "recall": 0.9088082901554404
+      },
+      "n_evaluated": 962,
+      "protein_avg": {
+       "f1": 0.49817759549766666,
+       "precision": 0.3431772503503843,
+       "recall": 0.9085239085239085
+      },
+      "protein_coverage": 0.9854469854469855,
+      "supported": true,
+      "tp": 877,
+      "unsupported_depth_predictions": 1264
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.9692307692307692,
+      "fn": 88,
+      "fp": 3843,
+      "macro": {
+       "f1": 0.3295130618935283,
+       "precision": 0.21835380115190958,
+       "recall": 0.8588349487749055
+      },
+      "micro": {
+       "f1": 0.3085312225153914,
+       "precision": 0.1858050847457627,
+       "recall": 0.9088082901554404
+      },
+      "n_evaluated": 962,
+      "protein_avg": {
+       "f1": 0.49817759549766666,
+       "precision": 0.3431772503503843,
+       "recall": 0.9085239085239085
+      },
+      "protein_coverage": 0.9854469854469855,
+      "supported": true,
+      "tp": 877,
+      "unsupported_depth_predictions": 1264
+     }
+    },
+    "3": {
+     "all": {
+      "ec_class_coverage": 0.8756218905472637,
+      "fn": 133,
+      "fp": 8645,
+      "macro": {
+       "f1": 0.23435640236545027,
+       "precision": 0.1551733713253832,
+       "recall": 0.7835460787277412
+      },
+      "micro": {
+       "f1": 0.15822784810126583,
+       "precision": 0.08711721224920803,
+       "recall": 0.8611691022964509
+      },
+      "n_evaluated": 955,
+      "protein_avg": {
+       "f1": 0.23571125531708373,
+       "precision": 0.13655312711351578,
+       "recall": 0.8607329842931937
+      },
+      "protein_coverage": 0.9842931937172775,
+      "supported": true,
+      "tp": 825,
+      "unsupported_depth_predictions": 4278
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.8756218905472637,
+      "fn": 133,
+      "fp": 8645,
+      "macro": {
+       "f1": 0.23435640236545027,
+       "precision": 0.1551733713253832,
+       "recall": 0.7835460787277412
+      },
+      "micro": {
+       "f1": 0.15822784810126583,
+       "precision": 0.08711721224920803,
+       "recall": 0.8611691022964509
+      },
+      "n_evaluated": 955,
+      "protein_avg": {
+       "f1": 0.23571125531708373,
+       "precision": 0.13655312711351578,
+       "recall": 0.8607329842931937
+      },
+      "protein_coverage": 0.9842931937172775,
+      "supported": true,
+      "tp": 825,
+      "unsupported_depth_predictions": 4278
+     }
+    },
+    "4": {
+     "all": {
+      "ec_class_coverage": 0.4274905422446406,
+      "fn": 546,
+      "fp": 64943,
+      "macro": {
+       "f1": 0.29137306716909017,
+       "precision": 0.25963089354776747,
+       "recall": 0.41057166876839013
+      },
+      "micro": {
+       "f1": 0.011680726800778717,
+       "precision": 0.005923771621001071,
+       "recall": 0.41479099678456594
+      },
+      "n_evaluated": 929,
+      "protein_avg": {
+       "f1": 0.027191683104754186,
+       "precision": 0.014057623962814628,
+       "recall": 0.41388589881593113
+      },
+      "protein_coverage": 0.9827771797631862,
+      "supported": true,
+      "tp": 387,
+      "unsupported_depth_predictions": 11850
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.4274905422446406,
+      "fn": 546,
+      "fp": 64943,
+      "macro": {
+       "f1": 0.29137306716909017,
+       "precision": 0.25963089354776747,
+       "recall": 0.41057166876839013
+      },
+      "micro": {
+       "f1": 0.011680726800778717,
+       "precision": 0.005923771621001071,
+       "recall": 0.41479099678456594
+      },
+      "n_evaluated": 929,
+      "protein_avg": {
+       "f1": 0.027191683104754186,
+       "precision": 0.014057623962814628,
+       "recall": 0.41388589881593113
+      },
+      "protein_coverage": 0.9827771797631862,
+      "supported": true,
+      "tp": 387,
+      "unsupported_depth_predictions": 11850
+     }
+    }
+   },
+   "mapping_coverage": null,
+   "mapping_releases": [],
+   "model_id": "protnote",
+   "paper_style": {
+    "f1": 0.2927,
+    "precision": 0.2665,
+    "recall": 0.4293
+   },
+   "primary": true,
+   "run_id": "20261120T130321Z-protnote-m-csa",
+   "runtime_s": 135,
+   "status_counts": {
+    "invalid_input": 5,
+    "no_prediction": 10,
+    "ok": 950
+   },
+   "strata": {},
+   "variant": "as_published"
+  },
+  {
+   "dataset": "m-csa",
+   "enzyme_detection": {
+    "supported": false
+   },
+   "evaluated_utc": "2026-11-20T13:07:04Z",
+   "levels": {
+    "1": {
+     "all": {
+      "ec_class_coverage": 1.0,
+      "fn": 120,
+      "fp": 112,
+      "macro": {
+       "f1": 0.7890390041370232,
+       "precision": 0.908682383722696,
+       "recall": 0.7633893640765173
+      },
+      "micro": {
+       "f1": 0.8796680497925311,
+       "precision": 0.8833333333333333,
+       "recall": 0.8760330578512396
+      },
+      "n_evaluated": 965,
+      "protein_avg": {
+       "f1": 0.8802570265365183,
+       "precision": 0.8833333333333333,
+       "recall": 0.8772020725388601
+      },
+      "protein_coverage": 0.9948186528497409,
+      "supported": true,
+      "tp": 848,
+      "unsupported_depth_predictions": 0
+     },
+     "enzymes": {
+      "ec_class_coverage": 1.0,
+      "fn": 120,
+      "fp": 112,
+      "macro": {
+       "f1": 0.7890390041370232,
+       "precision": 0.908682383722696,
+       "recall": 0.7633893640765173
+      },
+      "micro": {
+       "f1": 0.8796680497925311,
+       "precision": 0.8833333333333333,
+       "recall": 0.8760330578512396
+      },
+      "n_evaluated": 965,
+      "protein_avg": {
+       "f1": 0.8802570265365183,
+       "precision": 0.8833333333333333,
+       "recall": 0.8772020725388601
+      },
+      "protein_coverage": 0.9948186528497409,
+      "supported": true,
+      "tp": 848,
+      "unsupported_depth_predictions": 0
+     }
+    },
+    "2": {
+     "all": {
+      "ec_class_coverage": 0.8,
+      "fn": 539,
+      "fp": 169,
+      "macro": {
+       "f1": 0.49585838638881424,
+       "precision": 0.6792929439006186,
+       "recall": 0.4589549399637554
+      },
+      "micro": {
+       "f1": 0.5461538461538461,
+       "precision": 0.7159663865546219,
+       "recall": 0.44145077720207254
+      },
+      "n_evaluated": 962,
+      "protein_avg": {
+       "f1": 0.5468091637134805,
+       "precision": 0.7159663865546219,
+       "recall": 0.4423076923076923
+      },
+      "protein_coverage": 0.6185031185031185,
+      "supported": true,
+      "tp": 426,
+      "unsupported_depth_predictions": 362
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.8,
+      "fn": 539,
+      "fp": 169,
+      "macro": {
+       "f1": 0.49585838638881424,
+       "precision": 0.6792929439006186,
+       "recall": 0.4589549399637554
+      },
+      "micro": {
+       "f1": 0.5461538461538461,
+       "precision": 0.7159663865546219,
+       "recall": 0.44145077720207254
+      },
+      "n_evaluated": 962,
+      "protein_avg": {
+       "f1": 0.5468091637134805,
+       "precision": 0.7159663865546219,
+       "recall": 0.4423076923076923
+      },
+      "protein_coverage": 0.6185031185031185,
+      "supported": true,
+      "tp": 426,
+      "unsupported_depth_predictions": 362
+     }
+    },
+    "3": {
+     "all": {
+      "ec_class_coverage": 0.3034825870646766,
+      "fn": 807,
+      "fp": 148,
+      "macro": {
+       "f1": 0.15704313703522435,
+       "precision": 0.246548379757335,
+       "recall": 0.14194744412835417
+      },
+      "micro": {
+       "f1": 0.24025457438345266,
+       "precision": 0.5050167224080268,
+       "recall": 0.15762004175365343
+      },
+      "n_evaluated": 955,
+      "protein_avg": {
+       "f1": 0.2402215592123866,
+       "precision": 0.5050167224080268,
+       "recall": 0.15759162303664923
+      },
+      "protein_coverage": 0.31308900523560207,
+      "supported": true,
+      "tp": 151,
+      "unsupported_depth_predictions": 651
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.3034825870646766,
+      "fn": 807,
+      "fp": 148,
+      "macro": {
+       "f1": 0.15704313703522435,
+       "precision": 0.246548379757335,
+       "recall": 0.14194744412835417
+      },
+      "micro": {
+       "f1": 0.24025457438345266,
+       "precision": 0.5050167224080268,
+       "recall": 0.15762004175365343
+      },
+      "n_evaluated": 955,
+      "protein_avg": {
+       "f1": 0.2402215592123866,
+       "precision": 0.5050167224080268,
+       "recall": 0.15759162303664923
+      },
+      "protein_coverage": 0.31308900523560207,
+      "supported": true,
+      "tp": 151,
+      "unsupported_depth_predictions": 651
+     }
+    },
+    "4": {
+     "all": {
+      "ec_class_coverage": 0.021437578814627996,
+      "fn": 915,
+      "fp": 208,
+      "macro": {
+       "f1": 0.019696150843691827,
+       "precision": 0.021437578814627996,
+       "recall": 0.01912568306010929
+      },
+      "micro": {
+       "f1": 0.031061259706643658,
+       "precision": 0.07964601769911504,
+       "recall": 0.01929260450160772
+      },
+      "n_evaluated": 929,
+      "protein_avg": {
+       "f1": 0.031168831168831172,
+       "precision": 0.07964601769911504,
+       "recall": 0.0193756727664155
+      },
+      "protein_coverage": 0.2432723358449946,
+      "supported": true,
+      "tp": 18,
+      "unsupported_depth_predictions": 698
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.021437578814627996,
+      "fn": 915,
+      "fp": 208,
+      "macro": {
+       "f1": 0.019696150843691827,
+       "precision": 0.021437578814627996,
+       "recall": 0.01912568306010929
+      },
+      "micro": {
+       "f1": 0.031061259706643658,
+       "precision": 0.07964601769911504,
+       "recall": 0.01929260450160772
+      },
+      "n_evaluated": 929,
+      "protein_avg": {
+       "f1": 0.031168831168831172,
+       "precision": 0.07964601769911504,
+       "recall": 0.0193756727664155
+      },
+      "protein_coverage": 0.2432723358449946,
+      "supported": true,
+      "tp": 18,
+      "unsupported_depth_predictions": 698
+     }
+    }
+   },
+   "mapping_coverage": null,
+   "mapping_releases": [],
+   "model_id": "protnote",
+   "paper_style": {
+    "f1": 0.0205,
+    "precision": 0.0261,
+    "recall": 0.0217
+   },
+   "primary": false,
+   "run_id": "20261120T130321Z-protnote-m-csa",
+   "runtime_s": 135,
+   "status_counts": {
+    "invalid_input": 5,
+    "ok": 960
+   },
+   "strata": {},
+   "variant": "top1"
   },
   {
    "dataset": "new-392",
@@ -72307,6 +72868,2201 @@
     }
    },
    "variant": "t0.5"
+  },
+  {
+   "dataset": "new-392",
+   "enzyme_detection": {
+    "supported": false
+   },
+   "evaluated_utc": "2026-11-20T13:06:58Z",
+   "levels": {
+    "1": {
+     "all": {
+      "ec_class_coverage": 0.8571428571428571,
+      "fn": 29,
+      "fp": 325,
+      "macro": {
+       "f1": 0.4987763659490993,
+       "precision": 0.4021734551564113,
+       "recall": 0.818166987117689
+      },
+      "micro": {
+       "f1": 0.6746323529411765,
+       "precision": 0.5303468208092486,
+       "recall": 0.9267676767676768
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.7846841979809597,
+       "precision": 0.6787252368647716,
+       "recall": 0.9298469387755102
+      },
+      "protein_coverage": 0.9872448979591837,
+      "supported": true,
+      "tp": 367,
+      "unsupported_depth_predictions": 0
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.8571428571428571,
+      "fn": 29,
+      "fp": 325,
+      "macro": {
+       "f1": 0.4987763659490993,
+       "precision": 0.4021734551564113,
+       "recall": 0.818166987117689
+      },
+      "micro": {
+       "f1": 0.6746323529411765,
+       "precision": 0.5303468208092486,
+       "recall": 0.9267676767676768
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.7846841979809597,
+       "precision": 0.6787252368647716,
+       "recall": 0.9298469387755102
+      },
+      "protein_coverage": 0.9872448979591837,
+      "supported": true,
+      "tp": 367,
+      "unsupported_depth_predictions": 0
+     }
+    },
+    "2": {
+     "all": {
+      "ec_class_coverage": 0.8928571428571429,
+      "fn": 58,
+      "fp": 1351,
+      "macro": {
+       "f1": 0.3948527163483303,
+       "precision": 0.2950734086874471,
+       "recall": 0.782053393217676
+      },
+      "micro": {
+       "f1": 0.3248682319118351,
+       "precision": 0.20059171597633135,
+       "recall": 0.853904282115869
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.5087591894518095,
+       "precision": 0.36196113395900054,
+       "recall": 0.8558673469387755
+      },
+      "protein_coverage": 0.9846938775510204,
+      "supported": true,
+      "tp": 339,
+      "unsupported_depth_predictions": 508
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.8928571428571429,
+      "fn": 58,
+      "fp": 1351,
+      "macro": {
+       "f1": 0.3948527163483303,
+       "precision": 0.2950734086874471,
+       "recall": 0.782053393217676
+      },
+      "micro": {
+       "f1": 0.3248682319118351,
+       "precision": 0.20059171597633135,
+       "recall": 0.853904282115869
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.5087591894518095,
+       "precision": 0.36196113395900054,
+       "recall": 0.8558673469387755
+      },
+      "protein_coverage": 0.9846938775510204,
+      "supported": true,
+      "tp": 339,
+      "unsupported_depth_predictions": 508
+     }
+    },
+    "3": {
+     "all": {
+      "ec_class_coverage": 0.8771929824561403,
+      "fn": 95,
+      "fp": 2741,
+      "macro": {
+       "f1": 0.36992858397765155,
+       "precision": 0.30161331146487835,
+       "recall": 0.7031174767114919
+      },
+      "micro": {
+       "f1": 0.17653890824622534,
+       "precision": 0.09983579638752052,
+       "recall": 0.7619047619047619
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.21754150747756762,
+       "precision": 0.12686151829549022,
+       "recall": 0.7627551020408163
+      },
+      "protein_coverage": 0.9821428571428571,
+      "supported": true,
+      "tp": 304,
+      "unsupported_depth_predictions": 1678
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.8771929824561403,
+      "fn": 95,
+      "fp": 2741,
+      "macro": {
+       "f1": 0.36992858397765155,
+       "precision": 0.30161331146487835,
+       "recall": 0.7031174767114919
+      },
+      "micro": {
+       "f1": 0.17653890824622534,
+       "precision": 0.09983579638752052,
+       "recall": 0.7619047619047619
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.21754150747756762,
+       "precision": 0.12686151829549022,
+       "recall": 0.7627551020408163
+      },
+      "protein_coverage": 0.9821428571428571,
+      "supported": true,
+      "tp": 304,
+      "unsupported_depth_predictions": 1678
+     }
+    },
+    "4": {
+     "all": {
+      "ec_class_coverage": 0.1977401129943503,
+      "fn": 432,
+      "fp": 27411,
+      "macro": {
+       "f1": 0.14927116198302642,
+       "precision": 0.15939907550077043,
+       "recall": 0.1588753681974021
+      },
+      "micro": {
+       "f1": 0.005074146864391639,
+       "precision": 0.0025835092060257623,
+       "recall": 0.1411530815109344
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.010573890698174087,
+       "precision": 0.005476917154570822,
+       "recall": 0.1524234693877551
+      },
+      "protein_coverage": 0.9821428571428571,
+      "supported": true,
+      "tp": 71,
+      "unsupported_depth_predictions": 4378
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.1977401129943503,
+      "fn": 432,
+      "fp": 27411,
+      "macro": {
+       "f1": 0.14927116198302642,
+       "precision": 0.15939907550077043,
+       "recall": 0.1588753681974021
+      },
+      "micro": {
+       "f1": 0.005074146864391639,
+       "precision": 0.0025835092060257623,
+       "recall": 0.1411530815109344
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.010573890698174087,
+       "precision": 0.005476917154570822,
+       "recall": 0.1524234693877551
+      },
+      "protein_coverage": 0.9821428571428571,
+      "supported": true,
+      "tp": 71,
+      "unsupported_depth_predictions": 4378
+     }
+    }
+   },
+   "mapping_coverage": null,
+   "mapping_releases": [],
+   "model_id": "protnote",
+   "paper_style": {
+    "f1": 0.1437,
+    "precision": 0.1661,
+    "recall": 0.1412
+   },
+   "primary": true,
+   "run_id": "20261120T130321Z-protnote-new-392",
+   "runtime_s": 130,
+   "status_counts": {
+    "invalid_input": 1,
+    "no_prediction": 4,
+    "ok": 387
+   },
+   "strata": {
+    "uniprot_sprot_2026_04": {
+     "bins": [
+      "[0,30)",
+      "[30,50)",
+      "[50,70)",
+      "[70,100]"
+     ],
+     "by_bin": {
+      "[0,30)": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 1.0,
+          "fn": 6,
+          "fp": 16,
+          "macro": {
+           "f1": 0.4979166666666666,
+           "precision": 0.5583333333333333,
+           "recall": 0.575
+          },
+          "micro": {
+           "f1": 0.5,
+           "precision": 0.4074074074074074,
+           "recall": 0.6470588235294118
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.5706723133933298,
+           "precision": 0.5104166666666666,
+           "recall": 0.6470588235294118
+          },
+          "protein_coverage": 0.9411764705882353,
+          "supported": true,
+          "tp": 11,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 1.0,
+          "fn": 6,
+          "fp": 16,
+          "macro": {
+           "f1": 0.4979166666666666,
+           "precision": 0.5583333333333333,
+           "recall": 0.575
+          },
+          "micro": {
+           "f1": 0.5,
+           "precision": 0.4074074074074074,
+           "recall": 0.6470588235294118
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.5706723133933298,
+           "precision": 0.5104166666666666,
+           "recall": 0.6470588235294118
+          },
+          "protein_coverage": 0.9411764705882353,
+          "supported": true,
+          "tp": 11,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 0.7142857142857143,
+          "fn": 6,
+          "fp": 36,
+          "macro": {
+           "f1": 0.43369963369963366,
+           "precision": 0.49404761904761907,
+           "recall": 0.511904761904762
+          },
+          "micro": {
+           "f1": 0.34375,
+           "precision": 0.23404255319148937,
+           "recall": 0.6470588235294118
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.48232163223925995,
+           "precision": 0.3844444444444445,
+           "recall": 0.6470588235294118
+          },
+          "protein_coverage": 0.8823529411764706,
+          "supported": true,
+          "tp": 11,
+          "unsupported_depth_predictions": 22
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.7142857142857143,
+          "fn": 6,
+          "fp": 36,
+          "macro": {
+           "f1": 0.43369963369963366,
+           "precision": 0.49404761904761907,
+           "recall": 0.511904761904762
+          },
+          "micro": {
+           "f1": 0.34375,
+           "precision": 0.23404255319148937,
+           "recall": 0.6470588235294118
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.48232163223925995,
+           "precision": 0.3844444444444445,
+           "recall": 0.6470588235294118
+          },
+          "protein_coverage": 0.8823529411764706,
+          "supported": true,
+          "tp": 11,
+          "unsupported_depth_predictions": 22
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.6,
+          "fn": 7,
+          "fp": 136,
+          "macro": {
+           "f1": 0.3975757575757576,
+           "precision": 0.38666666666666666,
+           "recall": 0.5
+          },
+          "micro": {
+           "f1": 0.1226993865030675,
+           "precision": 0.0684931506849315,
+           "recall": 0.5882352941176471
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.141982823696552,
+           "precision": 0.0807349404408228,
+           "recall": 0.5882352941176471
+          },
+          "protein_coverage": 0.8823529411764706,
+          "supported": true,
+          "tp": 10,
+          "unsupported_depth_predictions": 62
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.6,
+          "fn": 7,
+          "fp": 136,
+          "macro": {
+           "f1": 0.3975757575757576,
+           "precision": 0.38666666666666666,
+           "recall": 0.5
+          },
+          "micro": {
+           "f1": 0.1226993865030675,
+           "precision": 0.0684931506849315,
+           "recall": 0.5882352941176471
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.141982823696552,
+           "precision": 0.0807349404408228,
+           "recall": 0.5882352941176471
+          },
+          "protein_coverage": 0.8823529411764706,
+          "supported": true,
+          "tp": 10,
+          "unsupported_depth_predictions": 62
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.21428571428571427,
+          "fn": 15,
+          "fp": 1151,
+          "macro": {
+           "f1": 0.19047619047619047,
+           "precision": 0.21428571428571427,
+           "recall": 0.17857142857142858
+          },
+          "micro": {
+           "f1": 0.0051194539249146765,
+           "precision": 0.0025996533795493936,
+           "recall": 0.16666666666666666
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.00551840757766733,
+           "precision": 0.002811963495075449,
+           "recall": 0.14705882352941177
+          },
+          "protein_coverage": 0.8823529411764706,
+          "supported": true,
+          "tp": 3,
+          "unsupported_depth_predictions": 201
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.21428571428571427,
+          "fn": 15,
+          "fp": 1151,
+          "macro": {
+           "f1": 0.19047619047619047,
+           "precision": 0.21428571428571427,
+           "recall": 0.17857142857142858
+          },
+          "micro": {
+           "f1": 0.0051194539249146765,
+           "precision": 0.0025996533795493936,
+           "recall": 0.16666666666666666
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.00551840757766733,
+           "precision": 0.002811963495075449,
+           "recall": 0.14705882352941177
+          },
+          "protein_coverage": 0.8823529411764706,
+          "supported": true,
+          "tp": 3,
+          "unsupported_depth_predictions": 201
+         }
+        }
+       },
+       "n": 17
+      },
+      "[30,50)": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 0.8333333333333334,
+          "fn": 9,
+          "fp": 62,
+          "macro": {
+           "f1": 0.4640197104482819,
+           "precision": 0.36908602150537634,
+           "recall": 0.7484126984126984
+          },
+          "micro": {
+           "f1": 0.584795321637427,
+           "precision": 0.44642857142857145,
+           "recall": 0.847457627118644
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.6869681123756791,
+           "precision": 0.5775862068965516,
+           "recall": 0.847457627118644
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 50,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.8333333333333334,
+          "fn": 9,
+          "fp": 62,
+          "macro": {
+           "f1": 0.4640197104482819,
+           "precision": 0.36908602150537634,
+           "recall": 0.7484126984126984
+          },
+          "micro": {
+           "f1": 0.584795321637427,
+           "precision": 0.44642857142857145,
+           "recall": 0.847457627118644
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.6869681123756791,
+           "precision": 0.5775862068965516,
+           "recall": 0.847457627118644
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 50,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 0.7333333333333333,
+          "fn": 18,
+          "fp": 194,
+          "macro": {
+           "f1": 0.33853685104324494,
+           "precision": 0.26814333814333813,
+           "recall": 0.5734391534391534
+          },
+          "micro": {
+           "f1": 0.2789115646258503,
+           "precision": 0.17446808510638298,
+           "recall": 0.6949152542372882
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.47797981536448386,
+           "precision": 0.3642651888341543,
+           "recall": 0.6949152542372882
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 41,
+          "unsupported_depth_predictions": 95
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.7333333333333333,
+          "fn": 18,
+          "fp": 194,
+          "macro": {
+           "f1": 0.33853685104324494,
+           "precision": 0.26814333814333813,
+           "recall": 0.5734391534391534
+          },
+          "micro": {
+           "f1": 0.2789115646258503,
+           "precision": 0.17446808510638298,
+           "recall": 0.6949152542372882
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.47797981536448386,
+           "precision": 0.3642651888341543,
+           "recall": 0.6949152542372882
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 41,
+          "unsupported_depth_predictions": 95
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.6296296296296297,
+          "fn": 23,
+          "fp": 481,
+          "macro": {
+           "f1": 0.3294659951522696,
+           "precision": 0.2836351919685253,
+           "recall": 0.4938271604938272
+          },
+          "micro": {
+           "f1": 0.125,
+           "precision": 0.06963249516441006,
+           "recall": 0.6101694915254238
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.15616215870315397,
+           "precision": 0.08953905290112185,
+           "recall": 0.6101694915254238
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 36,
+          "unsupported_depth_predictions": 282
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.6296296296296297,
+          "fn": 23,
+          "fp": 481,
+          "macro": {
+           "f1": 0.3294659951522696,
+           "precision": 0.2836351919685253,
+           "recall": 0.4938271604938272
+          },
+          "micro": {
+           "f1": 0.125,
+           "precision": 0.06963249516441006,
+           "recall": 0.6101694915254238
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.15616215870315397,
+           "precision": 0.08953905290112185,
+           "recall": 0.6101694915254238
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 36,
+          "unsupported_depth_predictions": 282
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.07692307692307693,
+          "fn": 56,
+          "fp": 4216,
+          "macro": {
+           "f1": 0.06837606837606837,
+           "precision": 0.07692307692307693,
+           "recall": 0.0641025641025641
+          },
+          "micro": {
+           "f1": 0.001402524544179523,
+           "precision": 0.000711068973690448,
+           "recall": 0.05084745762711865
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.0016255624117666777,
+           "precision": 0.0008259843149246677,
+           "recall": 0.05084745762711865
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 3,
+          "unsupported_depth_predictions": 767
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.07692307692307693,
+          "fn": 56,
+          "fp": 4216,
+          "macro": {
+           "f1": 0.06837606837606837,
+           "precision": 0.07692307692307693,
+           "recall": 0.0641025641025641
+          },
+          "micro": {
+           "f1": 0.001402524544179523,
+           "precision": 0.000711068973690448,
+           "recall": 0.05084745762711865
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.0016255624117666777,
+           "precision": 0.0008259843149246677,
+           "recall": 0.05084745762711865
+          },
+          "protein_coverage": 0.9830508474576272,
+          "supported": true,
+          "tp": 3,
+          "unsupported_depth_predictions": 767
+         }
+        }
+       },
+       "n": 59
+      },
+      "[50,70)": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 1.0,
+          "fn": 8,
+          "fp": 110,
+          "macro": {
+           "f1": 0.6284708856456992,
+           "precision": 0.4985758246118808,
+           "recall": 0.94375
+          },
+          "micro": {
+           "f1": 0.6740331491712708,
+           "precision": 0.5258620689655172,
+           "recall": 0.9384615384615385
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.7908596520005553,
+           "precision": 0.6797900262467192,
+           "recall": 0.9453125
+          },
+          "protein_coverage": 0.9921875,
+          "supported": true,
+          "tp": 122,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 1.0,
+          "fn": 8,
+          "fp": 110,
+          "macro": {
+           "f1": 0.6284708856456992,
+           "precision": 0.4985758246118808,
+           "recall": 0.94375
+          },
+          "micro": {
+           "f1": 0.6740331491712708,
+           "precision": 0.5258620689655172,
+           "recall": 0.9384615384615385
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.7908596520005553,
+           "precision": 0.6797900262467192,
+           "recall": 0.9453125
+          },
+          "protein_coverage": 0.9921875,
+          "supported": true,
+          "tp": 122,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 1.0,
+          "fn": 19,
+          "fp": 416,
+          "macro": {
+           "f1": 0.5047285978564721,
+           "precision": 0.3936436091604714,
+           "recall": 0.8864803756849212
+          },
+          "micro": {
+           "f1": 0.3378995433789954,
+           "precision": 0.21062618595825428,
+           "recall": 0.8538461538461538
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.5257190136286873,
+           "precision": 0.3786907318403383,
+           "recall": 0.859375
+          },
+          "protein_coverage": 0.9921875,
+          "supported": true,
+          "tp": 111,
+          "unsupported_depth_predictions": 169
+         },
+         "enzymes": {
+          "ec_class_coverage": 1.0,
+          "fn": 19,
+          "fp": 416,
+          "macro": {
+           "f1": 0.5047285978564721,
+           "precision": 0.3936436091604714,
+           "recall": 0.8864803756849212
+          },
+          "micro": {
+           "f1": 0.3378995433789954,
+           "precision": 0.21062618595825428,
+           "recall": 0.8538461538461538
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.5257190136286873,
+           "precision": 0.3786907318403383,
+           "recall": 0.859375
+          },
+          "protein_coverage": 0.9921875,
+          "supported": true,
+          "tp": 111,
+          "unsupported_depth_predictions": 169
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.9459459459459459,
+          "fn": 31,
+          "fp": 907,
+          "macro": {
+           "f1": 0.4855001658407232,
+           "precision": 0.43036849464094046,
+           "recall": 0.7821535821535821
+          },
+          "micro": {
+           "f1": 0.17719298245614037,
+           "precision": 0.1001984126984127,
+           "recall": 0.7651515151515151
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.22177554141693295,
+           "precision": 0.12966797312035405,
+           "recall": 0.765625
+          },
+          "protein_coverage": 0.984375,
+          "supported": true,
+          "tp": 101,
+          "unsupported_depth_predictions": 553
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.9459459459459459,
+          "fn": 31,
+          "fp": 907,
+          "macro": {
+           "f1": 0.4855001658407232,
+           "precision": 0.43036849464094046,
+           "recall": 0.7821535821535821
+          },
+          "micro": {
+           "f1": 0.17719298245614037,
+           "precision": 0.1001984126984127,
+           "recall": 0.7651515151515151
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.22177554141693295,
+           "precision": 0.12966797312035405,
+           "recall": 0.765625
+          },
+          "protein_coverage": 0.984375,
+          "supported": true,
+          "tp": 101,
+          "unsupported_depth_predictions": 553
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.15555555555555556,
+          "fn": 130,
+          "fp": 9400,
+          "macro": {
+           "f1": 0.12928811928811929,
+           "precision": 0.13564814814814813,
+           "recall": 0.13425925925925927
+          },
+          "micro": {
+           "f1": 0.004387797743418304,
+           "precision": 0.0022290627321940345,
+           "recall": 0.1390728476821192
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.007497331630543092,
+           "precision": 0.0038503640084264117,
+           "recall": 0.14192708333333334
+          },
+          "protein_coverage": 0.984375,
+          "supported": true,
+          "tp": 21,
+          "unsupported_depth_predictions": 1471
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.15555555555555556,
+          "fn": 130,
+          "fp": 9400,
+          "macro": {
+           "f1": 0.12928811928811929,
+           "precision": 0.13564814814814813,
+           "recall": 0.13425925925925927
+          },
+          "micro": {
+           "f1": 0.004387797743418304,
+           "precision": 0.0022290627321940345,
+           "recall": 0.1390728476821192
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.007497331630543092,
+           "precision": 0.0038503640084264117,
+           "recall": 0.14192708333333334
+          },
+          "protein_coverage": 0.984375,
+          "supported": true,
+          "tp": 21,
+          "unsupported_depth_predictions": 1471
+         }
+        }
+       },
+       "n": 128
+      },
+      "[70,100]": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 0.8,
+          "fn": 6,
+          "fp": 137,
+          "macro": {
+           "f1": 0.6306082432973189,
+           "precision": 0.5382231556232057,
+           "recall": 0.7789170506912443
+          },
+          "micro": {
+           "f1": 0.720156555772994,
+           "precision": 0.573208722741433,
+           "recall": 0.968421052631579
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.8294194738647931,
+           "precision": 0.7240143369175626,
+           "recall": 0.9707446808510638
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 184,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.8,
+          "fn": 6,
+          "fp": 137,
+          "macro": {
+           "f1": 0.6306082432973189,
+           "precision": 0.5382231556232057,
+           "recall": 0.7789170506912443
+          },
+          "micro": {
+           "f1": 0.720156555772994,
+           "precision": 0.573208722741433,
+           "recall": 0.968421052631579
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.8294194738647931,
+           "precision": 0.7240143369175626,
+           "recall": 0.9707446808510638
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 184,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 0.95,
+          "fn": 15,
+          "fp": 705,
+          "macro": {
+           "f1": 0.5183431017611715,
+           "precision": 0.41759904846243856,
+           "recall": 0.8620878833809869
+          },
+          "micro": {
+           "f1": 0.32835820895522383,
+           "precision": 0.19977298524404086,
+           "recall": 0.9214659685863874
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.5054229062605717,
+           "precision": 0.34800659755593355,
+           "recall": 0.9228723404255319
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 176,
+          "unsupported_depth_predictions": 222
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.95,
+          "fn": 15,
+          "fp": 705,
+          "macro": {
+           "f1": 0.5183431017611715,
+           "precision": 0.41759904846243856,
+           "recall": 0.8620878833809869
+          },
+          "micro": {
+           "f1": 0.32835820895522383,
+           "precision": 0.19977298524404086,
+           "recall": 0.9214659685863874
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.5054229062605717,
+           "precision": 0.34800659755593355,
+           "recall": 0.9228723404255319
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 176,
+          "unsupported_depth_predictions": 222
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.8947368421052632,
+          "fn": 34,
+          "fp": 1217,
+          "macro": {
+           "f1": 0.47212685798086457,
+           "precision": 0.42090269374140005,
+           "recall": 0.7583597358175312
+          },
+          "micro": {
+           "f1": 0.20063897763578276,
+           "precision": 0.11426491994177583,
+           "recall": 0.8219895287958116
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.23982109200345728,
+           "precision": 0.14031844492323448,
+           "recall": 0.824468085106383
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 157,
+          "unsupported_depth_predictions": 781
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.8947368421052632,
+          "fn": 34,
+          "fp": 1217,
+          "macro": {
+           "f1": 0.47212685798086457,
+           "precision": 0.42090269374140005,
+           "recall": 0.7583597358175312
+          },
+          "micro": {
+           "f1": 0.20063897763578276,
+           "precision": 0.11426491994177583,
+           "recall": 0.8219895287958116
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.23982109200345728,
+           "precision": 0.14031844492323448,
+           "recall": 0.824468085106383
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 157,
+          "unsupported_depth_predictions": 781
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.22105263157894736,
+          "fn": 231,
+          "fp": 12644,
+          "macro": {
+           "f1": 0.18904078377762593,
+           "precision": 0.20087719298245615,
+           "recall": 0.196536212325686
+          },
+          "micro": {
+           "f1": 0.006788552032708478,
+           "precision": 0.0034678436317780582,
+           "recall": 0.16
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.01580893165696991,
+           "precision": 0.008243982240625143,
+           "recall": 0.19193262411347514
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 44,
+          "unsupported_depth_predictions": 1939
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.22105263157894736,
+          "fn": 231,
+          "fp": 12644,
+          "macro": {
+           "f1": 0.18904078377762593,
+           "precision": 0.20087719298245615,
+           "recall": 0.196536212325686
+          },
+          "micro": {
+           "f1": 0.006788552032708478,
+           "precision": 0.0034678436317780582,
+           "recall": 0.16
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.01580893165696991,
+           "precision": 0.008243982240625143,
+           "recall": 0.19193262411347514
+          },
+          "protein_coverage": 0.9893617021276596,
+          "supported": true,
+          "tp": 44,
+          "unsupported_depth_predictions": 1939
+         }
+        }
+       },
+       "n": 188
+      }
+     }
+    }
+   },
+   "variant": "as_published"
+  },
+  {
+   "dataset": "new-392",
+   "enzyme_detection": {
+    "supported": false
+   },
+   "evaluated_utc": "2026-11-20T13:06:59Z",
+   "levels": {
+    "1": {
+     "all": {
+      "ec_class_coverage": 1.0,
+      "fn": 56,
+      "fp": 51,
+      "macro": {
+       "f1": 0.723439847002637,
+       "precision": 0.7938822826235044,
+       "recall": 0.7453672152892412
+      },
+      "micro": {
+       "f1": 0.8640406607369759,
+       "precision": 0.8695652173913043,
+       "recall": 0.8585858585858586
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.8658895862687331,
+       "precision": 0.8695652173913043,
+       "recall": 0.8622448979591837
+      },
+      "protein_coverage": 0.9974489795918368,
+      "supported": true,
+      "tp": 340,
+      "unsupported_depth_predictions": 0
+     },
+     "enzymes": {
+      "ec_class_coverage": 1.0,
+      "fn": 56,
+      "fp": 51,
+      "macro": {
+       "f1": 0.723439847002637,
+       "precision": 0.7938822826235044,
+       "recall": 0.7453672152892412
+      },
+      "micro": {
+       "f1": 0.8640406607369759,
+       "precision": 0.8695652173913043,
+       "recall": 0.8585858585858586
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.8658895862687331,
+       "precision": 0.8695652173913043,
+       "recall": 0.8622448979591837
+      },
+      "protein_coverage": 0.9974489795918368,
+      "supported": true,
+      "tp": 340,
+      "unsupported_depth_predictions": 0
+     }
+    },
+    "2": {
+     "all": {
+      "ec_class_coverage": 0.7142857142857143,
+      "fn": 253,
+      "fp": 66,
+      "macro": {
+       "f1": 0.48956241223346003,
+       "precision": 0.6593550977009625,
+       "recall": 0.43452391863860107
+      },
+      "micro": {
+       "f1": 0.47446457990115315,
+       "precision": 0.6857142857142857,
+       "recall": 0.36272040302267
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.4773223381033228,
+       "precision": 0.6857142857142857,
+       "recall": 0.36607142857142855
+      },
+      "protein_coverage": 0.5357142857142857,
+      "supported": true,
+      "tp": 144,
+      "unsupported_depth_predictions": 181
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.7142857142857143,
+      "fn": 253,
+      "fp": 66,
+      "macro": {
+       "f1": 0.48956241223346003,
+       "precision": 0.6593550977009625,
+       "recall": 0.43452391863860107
+      },
+      "micro": {
+       "f1": 0.47446457990115315,
+       "precision": 0.6857142857142857,
+       "recall": 0.36272040302267
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.4773223381033228,
+       "precision": 0.6857142857142857,
+       "recall": 0.36607142857142855
+      },
+      "protein_coverage": 0.5357142857142857,
+      "supported": true,
+      "tp": 144,
+      "unsupported_depth_predictions": 181
+     }
+    },
+    "3": {
+     "all": {
+      "ec_class_coverage": 0.3157894736842105,
+      "fn": 352,
+      "fp": 49,
+      "macro": {
+       "f1": 0.1690641879740788,
+       "precision": 0.2821637426900585,
+       "recall": 0.1478312136206873
+      },
+      "micro": {
+       "f1": 0.18989898989898987,
+       "precision": 0.4895833333333333,
+       "recall": 0.11779448621553884
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.1893169877408056,
+       "precision": 0.4895833333333333,
+       "recall": 0.11734693877551021
+      },
+      "protein_coverage": 0.24489795918367346,
+      "supported": true,
+      "tp": 47,
+      "unsupported_depth_predictions": 295
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.3157894736842105,
+      "fn": 352,
+      "fp": 49,
+      "macro": {
+       "f1": 0.1690641879740788,
+       "precision": 0.2821637426900585,
+       "recall": 0.1478312136206873
+      },
+      "micro": {
+       "f1": 0.18989898989898987,
+       "precision": 0.4895833333333333,
+       "recall": 0.11779448621553884
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.1893169877408056,
+       "precision": 0.4895833333333333,
+       "recall": 0.11734693877551021
+      },
+      "protein_coverage": 0.24489795918367346,
+      "supported": true,
+      "tp": 47,
+      "unsupported_depth_predictions": 295
+     }
+    },
+    "4": {
+     "all": {
+      "ec_class_coverage": 0.005649717514124294,
+      "fn": 502,
+      "fp": 82,
+      "macro": {
+       "f1": 0.005649717514124294,
+       "precision": 0.005649717514124294,
+       "recall": 0.005649717514124294
+      },
+      "micro": {
+       "f1": 0.0034129692832764505,
+       "precision": 0.012048192771084338,
+       "recall": 0.0019880715705765406
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.004210526315789474,
+       "precision": 0.012048192771084338,
+       "recall": 0.002551020408163265
+      },
+      "protein_coverage": 0.21173469387755103,
+      "supported": true,
+      "tp": 1,
+      "unsupported_depth_predictions": 308
+     },
+     "enzymes": {
+      "ec_class_coverage": 0.005649717514124294,
+      "fn": 502,
+      "fp": 82,
+      "macro": {
+       "f1": 0.005649717514124294,
+       "precision": 0.005649717514124294,
+       "recall": 0.005649717514124294
+      },
+      "micro": {
+       "f1": 0.0034129692832764505,
+       "precision": 0.012048192771084338,
+       "recall": 0.0019880715705765406
+      },
+      "n_evaluated": 392,
+      "protein_avg": {
+       "f1": 0.004210526315789474,
+       "precision": 0.012048192771084338,
+       "recall": 0.002551020408163265
+      },
+      "protein_coverage": 0.21173469387755103,
+      "supported": true,
+      "tp": 1,
+      "unsupported_depth_predictions": 308
+     }
+    }
+   },
+   "mapping_coverage": null,
+   "mapping_releases": [],
+   "model_id": "protnote",
+   "paper_style": {
+    "f1": 0.002,
+    "precision": 0.002,
+    "recall": 0.002
+   },
+   "primary": false,
+   "run_id": "20261120T130321Z-protnote-new-392",
+   "runtime_s": 130,
+   "status_counts": {
+    "invalid_input": 1,
+    "ok": 391
+   },
+   "strata": {
+    "uniprot_sprot_2026_04": {
+     "bins": [
+      "[0,30)",
+      "[30,50)",
+      "[50,70)",
+      "[70,100]"
+     ],
+     "by_bin": {
+      "[0,30)": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 0.75,
+          "fn": 6,
+          "fp": 6,
+          "macro": {
+           "f1": 0.5119047619047619,
+           "precision": 0.5848214285714286,
+           "recall": 0.5416666666666667
+          },
+          "micro": {
+           "f1": 0.6470588235294118,
+           "precision": 0.6470588235294118,
+           "recall": 0.6470588235294118
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.6470588235294118,
+           "precision": 0.6470588235294118,
+           "recall": 0.6470588235294118
+          },
+          "protein_coverage": 1.0,
+          "supported": true,
+          "tp": 11,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.75,
+          "fn": 6,
+          "fp": 6,
+          "macro": {
+           "f1": 0.5119047619047619,
+           "precision": 0.5848214285714286,
+           "recall": 0.5416666666666667
+          },
+          "micro": {
+           "f1": 0.6470588235294118,
+           "precision": 0.6470588235294118,
+           "recall": 0.6470588235294118
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.6470588235294118,
+           "precision": 0.6470588235294118,
+           "recall": 0.6470588235294118
+          },
+          "protein_coverage": 1.0,
+          "supported": true,
+          "tp": 11,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 0.2857142857142857,
+          "fn": 8,
+          "fp": 3,
+          "macro": {
+           "f1": 0.2857142857142857,
+           "precision": 0.2857142857142857,
+           "recall": 0.2857142857142857
+          },
+          "micro": {
+           "f1": 0.6206896551724139,
+           "precision": 0.75,
+           "recall": 0.5294117647058824
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.6206896551724139,
+           "precision": 0.75,
+           "recall": 0.5294117647058824
+          },
+          "protein_coverage": 0.7058823529411765,
+          "supported": true,
+          "tp": 9,
+          "unsupported_depth_predictions": 5
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.2857142857142857,
+          "fn": 8,
+          "fp": 3,
+          "macro": {
+           "f1": 0.2857142857142857,
+           "precision": 0.2857142857142857,
+           "recall": 0.2857142857142857
+          },
+          "micro": {
+           "f1": 0.6206896551724139,
+           "precision": 0.75,
+           "recall": 0.5294117647058824
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.6206896551724139,
+           "precision": 0.75,
+           "recall": 0.5294117647058824
+          },
+          "protein_coverage": 0.7058823529411765,
+          "supported": true,
+          "tp": 9,
+          "unsupported_depth_predictions": 5
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.2,
+          "fn": 15,
+          "fp": 2,
+          "macro": {
+           "f1": 0.16666666666666666,
+           "precision": 0.2,
+           "recall": 0.15
+          },
+          "micro": {
+           "f1": 0.19047619047619047,
+           "precision": 0.5,
+           "recall": 0.11764705882352941
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.19047619047619047,
+           "precision": 0.5,
+           "recall": 0.11764705882352941
+          },
+          "protein_coverage": 0.23529411764705882,
+          "supported": true,
+          "tp": 2,
+          "unsupported_depth_predictions": 13
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.2,
+          "fn": 15,
+          "fp": 2,
+          "macro": {
+           "f1": 0.16666666666666666,
+           "precision": 0.2,
+           "recall": 0.15
+          },
+          "micro": {
+           "f1": 0.19047619047619047,
+           "precision": 0.5,
+           "recall": 0.11764705882352941
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.19047619047619047,
+           "precision": 0.5,
+           "recall": 0.11764705882352941
+          },
+          "protein_coverage": 0.23529411764705882,
+          "supported": true,
+          "tp": 2,
+          "unsupported_depth_predictions": 13
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.07142857142857142,
+          "fn": 17,
+          "fp": 3,
+          "macro": {
+           "f1": 0.07142857142857142,
+           "precision": 0.07142857142857142,
+           "recall": 0.07142857142857142
+          },
+          "micro": {
+           "f1": 0.0909090909090909,
+           "precision": 0.25,
+           "recall": 0.05555555555555555
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.09523809523809523,
+           "precision": 0.25,
+           "recall": 0.058823529411764705
+          },
+          "protein_coverage": 0.23529411764705882,
+          "supported": true,
+          "tp": 1,
+          "unsupported_depth_predictions": 13
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.07142857142857142,
+          "fn": 17,
+          "fp": 3,
+          "macro": {
+           "f1": 0.07142857142857142,
+           "precision": 0.07142857142857142,
+           "recall": 0.07142857142857142
+          },
+          "micro": {
+           "f1": 0.0909090909090909,
+           "precision": 0.25,
+           "recall": 0.05555555555555555
+          },
+          "n_evaluated": 17,
+          "protein_avg": {
+           "f1": 0.09523809523809523,
+           "precision": 0.25,
+           "recall": 0.058823529411764705
+          },
+          "protein_coverage": 0.23529411764705882,
+          "supported": true,
+          "tp": 1,
+          "unsupported_depth_predictions": 13
+         }
+        }
+       },
+       "n": 17
+      },
+      "[30,50)": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 0.8333333333333334,
+          "fn": 20,
+          "fp": 20,
+          "macro": {
+           "f1": 0.5103371173030616,
+           "precision": 0.5987179487179487,
+           "recall": 0.4793650793650794
+          },
+          "micro": {
+           "f1": 0.6610169491525424,
+           "precision": 0.6610169491525424,
+           "recall": 0.6610169491525424
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.6610169491525424,
+           "precision": 0.6610169491525424,
+           "recall": 0.6610169491525424
+          },
+          "protein_coverage": 1.0,
+          "supported": true,
+          "tp": 39,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.8333333333333334,
+          "fn": 20,
+          "fp": 20,
+          "macro": {
+           "f1": 0.5103371173030616,
+           "precision": 0.5987179487179487,
+           "recall": 0.4793650793650794
+          },
+          "micro": {
+           "f1": 0.6610169491525424,
+           "precision": 0.6610169491525424,
+           "recall": 0.6610169491525424
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.6610169491525424,
+           "precision": 0.6610169491525424,
+           "recall": 0.6610169491525424
+          },
+          "protein_coverage": 1.0,
+          "supported": true,
+          "tp": 39,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 0.4,
+          "fn": 39,
+          "fp": 18,
+          "macro": {
+           "f1": 0.2593554593554594,
+           "precision": 0.33111111111111113,
+           "recall": 0.23534391534391533
+          },
+          "micro": {
+           "f1": 0.41237113402061853,
+           "precision": 0.5263157894736842,
+           "recall": 0.3389830508474576
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.41237113402061853,
+           "precision": 0.5263157894736842,
+           "recall": 0.3389830508474576
+          },
+          "protein_coverage": 0.6440677966101694,
+          "supported": true,
+          "tp": 20,
+          "unsupported_depth_predictions": 21
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.4,
+          "fn": 39,
+          "fp": 18,
+          "macro": {
+           "f1": 0.2593554593554594,
+           "precision": 0.33111111111111113,
+           "recall": 0.23534391534391533
+          },
+          "micro": {
+           "f1": 0.41237113402061853,
+           "precision": 0.5263157894736842,
+           "recall": 0.3389830508474576
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.41237113402061853,
+           "precision": 0.5263157894736842,
+           "recall": 0.3389830508474576
+          },
+          "protein_coverage": 0.6440677966101694,
+          "supported": true,
+          "tp": 20,
+          "unsupported_depth_predictions": 21
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.1111111111111111,
+          "fn": 55,
+          "fp": 6,
+          "macro": {
+           "f1": 0.08148148148148149,
+           "precision": 0.1111111111111111,
+           "recall": 0.07098765432098765
+          },
+          "micro": {
+           "f1": 0.11594202898550726,
+           "precision": 0.4,
+           "recall": 0.06779661016949153
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.11594202898550726,
+           "precision": 0.4,
+           "recall": 0.06779661016949153
+          },
+          "protein_coverage": 0.1694915254237288,
+          "supported": true,
+          "tp": 4,
+          "unsupported_depth_predictions": 49
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.1111111111111111,
+          "fn": 55,
+          "fp": 6,
+          "macro": {
+           "f1": 0.08148148148148149,
+           "precision": 0.1111111111111111,
+           "recall": 0.07098765432098765
+          },
+          "micro": {
+           "f1": 0.11594202898550726,
+           "precision": 0.4,
+           "recall": 0.06779661016949153
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.11594202898550726,
+           "precision": 0.4,
+           "recall": 0.06779661016949153
+          },
+          "protein_coverage": 0.1694915254237288,
+          "supported": true,
+          "tp": 4,
+          "unsupported_depth_predictions": 49
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.0,
+          "fn": 59,
+          "fp": 9,
+          "macro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "micro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "protein_coverage": 0.15254237288135594,
+          "supported": true,
+          "tp": 0,
+          "unsupported_depth_predictions": 50
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.0,
+          "fn": 59,
+          "fp": 9,
+          "macro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "micro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "n_evaluated": 59,
+          "protein_avg": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "protein_coverage": 0.15254237288135594,
+          "supported": true,
+          "tp": 0,
+          "unsupported_depth_predictions": 50
+         }
+        }
+       },
+       "n": 59
+      },
+      "[50,70)": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 1.0,
+          "fn": 16,
+          "fp": 14,
+          "macro": {
+           "f1": 0.8478456209617403,
+           "precision": 0.8887626262626264,
+           "recall": 0.8352726964769647
+          },
+          "micro": {
+           "f1": 0.883720930232558,
+           "precision": 0.890625,
+           "recall": 0.8769230769230769
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.8867015418502202,
+           "precision": 0.890625,
+           "recall": 0.8828125
+          },
+          "protein_coverage": 1.0,
+          "supported": true,
+          "tp": 114,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 1.0,
+          "fn": 16,
+          "fp": 14,
+          "macro": {
+           "f1": 0.8478456209617403,
+           "precision": 0.8887626262626264,
+           "recall": 0.8352726964769647
+          },
+          "micro": {
+           "f1": 0.883720930232558,
+           "precision": 0.890625,
+           "recall": 0.8769230769230769
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.8867015418502202,
+           "precision": 0.890625,
+           "recall": 0.8828125
+          },
+          "protein_coverage": 1.0,
+          "supported": true,
+          "tp": 114,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 0.6818181818181818,
+          "fn": 79,
+          "fp": 30,
+          "macro": {
+           "f1": 0.4991025543657122,
+           "precision": 0.670995670995671,
+           "recall": 0.43269192928283834
+          },
+          "micro": {
+           "f1": 0.4834123222748815,
+           "precision": 0.6296296296296297,
+           "recall": 0.3923076923076923
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.4880382775119617,
+           "precision": 0.6296296296296297,
+           "recall": 0.3984375
+          },
+          "protein_coverage": 0.6328125,
+          "supported": true,
+          "tp": 51,
+          "unsupported_depth_predictions": 47
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.6818181818181818,
+          "fn": 79,
+          "fp": 30,
+          "macro": {
+           "f1": 0.4991025543657122,
+           "precision": 0.670995670995671,
+           "recall": 0.43269192928283834
+          },
+          "micro": {
+           "f1": 0.4834123222748815,
+           "precision": 0.6296296296296297,
+           "recall": 0.3923076923076923
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.4880382775119617,
+           "precision": 0.6296296296296297,
+           "recall": 0.3984375
+          },
+          "protein_coverage": 0.6328125,
+          "supported": true,
+          "tp": 51,
+          "unsupported_depth_predictions": 47
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.2702702702702703,
+          "fn": 117,
+          "fp": 20,
+          "macro": {
+           "f1": 0.18211068211068213,
+           "precision": 0.24864864864864863,
+           "recall": 0.15592020592020592
+          },
+          "micro": {
+           "f1": 0.17964071856287425,
+           "precision": 0.42857142857142855,
+           "recall": 0.11363636363636363
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.17919670442842428,
+           "precision": 0.42857142857142855,
+           "recall": 0.11328125
+          },
+          "protein_coverage": 0.2734375,
+          "supported": true,
+          "tp": 15,
+          "unsupported_depth_predictions": 93
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.2702702702702703,
+          "fn": 117,
+          "fp": 20,
+          "macro": {
+           "f1": 0.18211068211068213,
+           "precision": 0.24864864864864863,
+           "recall": 0.15592020592020592
+          },
+          "micro": {
+           "f1": 0.17964071856287425,
+           "precision": 0.42857142857142855,
+           "recall": 0.11363636363636363
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.17919670442842428,
+           "precision": 0.42857142857142855,
+           "recall": 0.11328125
+          },
+          "protein_coverage": 0.2734375,
+          "supported": true,
+          "tp": 15,
+          "unsupported_depth_predictions": 93
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.0,
+          "fn": 151,
+          "fp": 27,
+          "macro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "micro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "protein_coverage": 0.2109375,
+          "supported": true,
+          "tp": 0,
+          "unsupported_depth_predictions": 101
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.0,
+          "fn": 151,
+          "fp": 27,
+          "macro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "micro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "n_evaluated": 128,
+          "protein_avg": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "protein_coverage": 0.2109375,
+          "supported": true,
+          "tp": 0,
+          "unsupported_depth_predictions": 101
+         }
+        }
+       },
+       "n": 128
+      },
+      "[70,100]": {
+       "levels": {
+        "1": {
+         "all": {
+          "ec_class_coverage": 0.8,
+          "fn": 14,
+          "fp": 11,
+          "macro": {
+           "f1": 0.7562149264437741,
+           "precision": 0.769039039039039,
+           "recall": 0.7462266990492796
+          },
+          "micro": {
+           "f1": 0.9336870026525198,
+           "precision": 0.9411764705882353,
+           "recall": 0.9263157894736842
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.9359852916597026,
+           "precision": 0.9411764705882353,
+           "recall": 0.9308510638297872
+          },
+          "protein_coverage": 0.9946808510638298,
+          "supported": true,
+          "tp": 176,
+          "unsupported_depth_predictions": 0
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.8,
+          "fn": 14,
+          "fp": 11,
+          "macro": {
+           "f1": 0.7562149264437741,
+           "precision": 0.769039039039039,
+           "recall": 0.7462266990492796
+          },
+          "micro": {
+           "f1": 0.9336870026525198,
+           "precision": 0.9411764705882353,
+           "recall": 0.9263157894736842
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.9359852916597026,
+           "precision": 0.9411764705882353,
+           "recall": 0.9308510638297872
+          },
+          "protein_coverage": 0.9946808510638298,
+          "supported": true,
+          "tp": 176,
+          "unsupported_depth_predictions": 0
+         }
+        },
+        "2": {
+         "all": {
+          "ec_class_coverage": 0.65,
+          "fn": 127,
+          "fp": 15,
+          "macro": {
+           "f1": 0.4974526208300606,
+           "precision": 0.6344444444444444,
+           "recall": 0.4378682428682429
+          },
+          "micro": {
+           "f1": 0.47407407407407404,
+           "precision": 0.810126582278481,
+           "recall": 0.33507853403141363
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.4767574859958354,
+           "precision": 0.810126582278481,
+           "recall": 0.3377659574468085
+          },
+          "protein_coverage": 0.42021276595744683,
+          "supported": true,
+          "tp": 64,
+          "unsupported_depth_predictions": 108
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.65,
+          "fn": 127,
+          "fp": 15,
+          "macro": {
+           "f1": 0.4974526208300606,
+           "precision": 0.6344444444444444,
+           "recall": 0.4378682428682429
+          },
+          "micro": {
+           "f1": 0.47407407407407404,
+           "precision": 0.810126582278481,
+           "recall": 0.33507853403141363
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.4767574859958354,
+           "precision": 0.810126582278481,
+           "recall": 0.3377659574468085
+          },
+          "protein_coverage": 0.42021276595744683,
+          "supported": true,
+          "tp": 64,
+          "unsupported_depth_predictions": 108
+         }
+        },
+        "3": {
+         "all": {
+          "ec_class_coverage": 0.21052631578947367,
+          "fn": 165,
+          "fp": 21,
+          "macro": {
+           "f1": 0.12876269621421976,
+           "precision": 0.19736842105263158,
+           "recall": 0.11523600668337511
+          },
+          "micro": {
+           "f1": 0.2184873949579832,
+           "precision": 0.5531914893617021,
+           "recall": 0.13612565445026178
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.21785919658260083,
+           "precision": 0.5531914893617021,
+           "recall": 0.1356382978723404
+          },
+          "protein_coverage": 0.25,
+          "supported": true,
+          "tp": 26,
+          "unsupported_depth_predictions": 140
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.21052631578947367,
+          "fn": 165,
+          "fp": 21,
+          "macro": {
+           "f1": 0.12876269621421976,
+           "precision": 0.19736842105263158,
+           "recall": 0.11523600668337511
+          },
+          "micro": {
+           "f1": 0.2184873949579832,
+           "precision": 0.5531914893617021,
+           "recall": 0.13612565445026178
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.21785919658260083,
+           "precision": 0.5531914893617021,
+           "recall": 0.1356382978723404
+          },
+          "protein_coverage": 0.25,
+          "supported": true,
+          "tp": 26,
+          "unsupported_depth_predictions": 140
+         }
+        },
+        "4": {
+         "all": {
+          "ec_class_coverage": 0.0,
+          "fn": 275,
+          "fp": 43,
+          "macro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "micro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "protein_coverage": 0.22872340425531915,
+          "supported": true,
+          "tp": 0,
+          "unsupported_depth_predictions": 144
+         },
+         "enzymes": {
+          "ec_class_coverage": 0.0,
+          "fn": 275,
+          "fp": 43,
+          "macro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "micro": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "n_evaluated": 188,
+          "protein_avg": {
+           "f1": 0.0,
+           "precision": 0.0,
+           "recall": 0.0
+          },
+          "protein_coverage": 0.22872340425531915,
+          "supported": true,
+          "tp": 0,
+          "unsupported_depth_predictions": 144
+         }
+        }
+       },
+       "n": 188
+      }
+     }
+    }
+   },
+   "variant": "top1"
   },
   {
    "dataset": "price-149",

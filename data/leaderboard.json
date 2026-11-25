@@ -1,5 +1,5 @@
 {
- "commit": "6074c11",
+ "commit": "55f3361",
  "datasets": [
   {
    "citation": "https://doi.org/10.1038/s41586-018-0124-0",
@@ -33,7 +33,7 @@
   },
   {
    "citation": null,
-   "description": "89 published enzymes with fully de novo designed backbones (8 papers, 2018-2026) that were ACTIVE in the authors' assays and catalyse a reaction with an EC number: metalloproteases (56), serine hydrolases/esterases (25), cysteine proteases (4), luciferases (2), Syn-F4 enterobactin esterase (1), an ATPase (1). Labels are mostly class-level ECs (3.4.24.-, 3.1.1.-), so scores are meaningful at EC levels 1-3 only (1 design has a full EC).",
+   "description": "89 published enzymes with fully de novo designed backbones (8 papers, 2018-2026) that were ACTIVE in the authors' assays and catalyse a reaction with an EC number: Zn metalloproteases (56, bioRxiv 2025), esterases (25: 19 Zn metallohydrolases from Kim et al. 2026 Nature, 5 serine hydrolases from Lauko et al. 2025 Science, the Zn metalloesterase MID1sc10 from Studer et al. 2018), cysteine proteases (4), luciferases (2), Syn-F4 enterobactin esterase (1), an ATPase (1). Labels are mostly class-level ECs (3.4.24.-, 3.1.1.-), so scores are meaningful at EC levels 1-3 only (1 design has a full EC).",
    "id": "denovo",
    "n_distinct_ec4": 1,
    "n_enzymes": 89,
@@ -52,7 +52,7 @@
    "prepared_utc": "2026-11-19T14:40:48Z"
   }
  ],
- "generated_utc": "2026-11-20T13:08:27Z",
+ "generated_utc": "2026-11-25T11:44:49Z",
  "identity_references": [
   "uniprot_sprot_2026_04"
  ],
